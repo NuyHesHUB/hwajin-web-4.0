@@ -1,0 +1,89 @@
+*{font-family: 'Noto Sans KR', sans-serif;}
+#aboutRobotos{
+    height: 100vh;
+    background: black;
+    /* z-index: -1; */
+}
+.about-robotos-wrap{
+    width: 100%;
+    /* height: 100%; */
+    height: 900px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.about-robotos-title-wrap{}
+.about-robotos-title-wrap h2{
+    /* font-size: 72px; */
+    font-size: clamp(45px, 4vw, 72px);
+    font-weight: bold;
+}
+.about-robotos-img-wrap{
+    width: 100vw;
+}
+.about-robotos-left-wrap{
+    width: 50%;
+    height: 600px;
+    position: relative; /* 추가 */
+    z-index: 1; /* 추가 */
+}
+.about-robotos-right-wrap{
+    width: 50%;
+    height: 600px;
+    position: relative; /* 추가 */
+    z-index: 1; /* 추가 */
+}
+.about-robotos-overlay{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    filter: brightness(60%);
+}
+.left-overlay{
+    background-image: url('../assets/robotos-image/about-robotos-left-image.png');
+}
+.right-overlay{
+    background-image: url('../assets/robotos-image/about-robotos-right-image.png');
+}
+.about-robotos-contents-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.about-robotos-contents-wrap h3{
+    text-align: center;
+    /* font-size: 60px; */
+    font-size: clamp(28px, 4vw, 60px);
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.about-robotos-contents-wrap p{
+    text-align: center;
+    /* font-size: 24px; */
+    font-size: clamp(18px, 2vw, 24px);
+    margin-bottom: 56px;
+}
+.about-robotos-contents-wrap span{
+    text-align: center;
+    /* font-size: 24px; */
+    font-size: clamp(18px, 2vw, 24px);
+}
+@media screen and (max-width: 900px) {
+    .about-robotos-contents-wrap{padding: 0 30px;}
+    .about-robotos-contents-wrap p br{display: none;}
+}
+@media screen and (max-width: 600px) {
+    .about-robotos-img-wrap{flex-direction: column; margin-top: 60px;}
+    .about-robotos-left-wrap{width: 100%; height: 450px;}
+    .about-robotos-right-wrap{width: 100%; height: 450px;}
+    .about-robotos-contents-wrap{padding: 0 40px;}
+    .about-robotos-contents-wrap p br{display: none;}
+}

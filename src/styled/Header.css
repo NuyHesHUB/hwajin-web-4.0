@@ -1,0 +1,212 @@
+.header-wrap {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    background: transparent;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  .header-scrolled{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999;
+    background: #000;
+    filter: drop-shadow(0 1px 2px rgba(0, 0, 0, .3));
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  .header-box {
+    margin: 0 auto;
+    max-width: 1920px;
+    /* height: 125px; */
+    height: 85px;
+    display: flex;
+    position: relative;
+  }
+  .header-box .header-left {
+    height: 100%;
+    margin-right: 215px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  .header-box .header-left img{
+    width: 310px;
+  }
+  .header-box > .header-flex-wrap {
+    display: flex;
+    justify-content: end;
+    width: 100%;
+  }
+  .header-right {
+    line-height: 80px;
+  }
+  .header-right > ul {
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  .header-right > ul > li {
+    /* width: 70px; */
+    width: 80px;
+    display: inline-block;
+    margin-left: 100px;
+  }
+  .header-right > ul > li:first-child {
+    margin-left: 0;
+  }
+  .header-right > ul > li > div > a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+  }
+  .header-right.scrolled a{
+    color: #fff;
+  }
+  .header-right > ul > li > div::after {
+    position: absolute;
+    content: "";
+    top: 55px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #3FA9F5;
+    transition: width 0.3s ease;
+  }
+  .header-right > ul > li > div:hover::after {
+    width: 100%;
+  }
+  .menu-wrap li div {
+    position: relative;
+  }
+  /* .menu-wrap li div.active::after {
+    position: absolute;
+    content: "";
+    top: 55px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #3FA9F5;
+  } */
+  
+  .header-flex-wrap{
+    align-items: center;
+  }
+  .menu-toggle
+  {
+    display: none;
+    width: 33px;
+    cursor: pointer;
+    z-index: 2;
+    -webkit-touch-callout: none;
+  }
+  
+  #menuToggle span
+  {
+    display: block;
+    width: 29px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #999;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 3px 1px;
+    transition: .3s;
+  }
+  
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+  #menuToggle span:last-child
+  {
+    margin-bottom: 0;
+  }
+  
+  .menu-toggle.open span:nth-child(1)
+  {
+    transform: rotate(45deg) translate(1px, -2px)
+  }
+  .menu-toggle.open span:nth-child(2)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  .menu-toggle.open span:nth-child(3)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  .mobile-menu{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .3s ease;
+  }
+  .mobile-menu.open{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    max-height: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .mobile-menu ul{
+    list-style: none;
+    padding-bottom: 10px;
+  }
+  .mobile-menu ul li{
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .mobile-menu ul li a{
+    text-decoration: none;
+    color: #000;
+  }
+  @media screen and (max-width: 2000px) {
+    .header-box{padding-left: 50px; padding-right: 50px;}
+  }
+/*   @media screen and (max-width: 1800px){
+    .header-box{padding-left: 50px; padding-right: 50px;}
+  } */
+  @media screen and (max-width: 1000px) {
+    .header-box{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .header-box .header-left{
+      margin-right: 0;
+    }
+    .header-box .header-left img{
+      /* width: 310px; */
+    }
+    .header-right{
+      display: none;
+    }
+    .menu-toggle{
+      display: block;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .header-box .header-left img{
+      /* width: 150px; */
+    }
+  }

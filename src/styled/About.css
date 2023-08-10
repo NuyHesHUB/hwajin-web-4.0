@@ -1,0 +1,108 @@
+*{font-family: 'Noto Sans KR', sans-serif;}
+#about{
+    height: 100vh;
+}
+.about-wrap{
+    width: 100%;
+    height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.vanta-wrap{
+    width: 440px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 76px;
+}
+#vantaNet{
+    width: 440px;
+    height: 500px;
+    border-radius: 20px;
+}
+#vantaNet div{display: none;}
+.about-text{}
+.mobile-inovation{
+    display: none;
+}
+.about-text .about-title{
+    color: #3FA9F5;
+    /* font-size: 18px; */
+    font-size: clamp(16px, 3vw, 18px);
+}
+.about-text h2{
+    /* font-size: 50px; */
+    font-size: clamp(28px, 7vw, 50px);
+}
+.about-text h2 u{
+    font-weight: bold;
+}
+.about-text h3{
+    /* font-size: 98px; */
+    font-size: clamp(70px, 7vw, 98px);
+    font-weight: bold;
+    color: #3FA9F5;
+}
+.about-text .about-contents1{
+    /* font-size: 26px; */
+    margin-top: 20px;
+    font-size: clamp(18px, 5vw, 26px);
+}
+.about-text .about-contents1 u{
+    color: #3FA9F5;
+}
+.about-text div{
+    position: relative;
+    color: #767676;
+    width: 100%;
+    height: 156px;
+    margin-left: 30px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.about-text div::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #767676;
+}
+.about-text div p{
+    font-size: clamp(14px, 5vw, 16px);
+}
+@media screen and (max-width: 1000px) {
+    .about-wrap{flex-direction: column; padding: 0;}
+    .about-text .about-title{text-align: center;}
+    .about-text h2{text-align: center;}
+    .about-text .about-contents1{text-align: center;}
+    .about-text .desktop-inovation{display: none;}
+    .about-text div{position: static; height: 140px; margin: 0; padding: 0; justify-content: center;}
+    .about-text div::after{display: none;}
+    .about-text div p{text-align: center;}
+    .vanta-wrap{margin: 0 auto; width: 100vw; height: auto; border-radius: 0;}
+    #vantaNet{width: calc(100vw - (100vw - 100%));}
+    .vanta-canvas{width: 100vw !important;}
+    .mobile-inovation{display: block; animation: slide 10s linear infinite;}
+    @keyframes slide {
+        0% {
+          transform: translateX(100%);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+}
+@media screen and (max-width: 600px) {
+    #about{height: auto;}
+    .about-wrap{height: 85%;}
+    .about-text .about-title{margin-bottom: 20px;}
+    .about-text h3{margin-top: 30px; margin-bottom: 30px;}
+    .about-text div{display: none;}
+    .vanta-wrap{margin-top: 20px;}
+    #vantaNet{height: 300px; position: relative;}
+    #vantaNet div{display: block; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;}
+    #vantaNet div p{font-size: clamp(14px, 5vw, 20px); color: #fff; text-align: center;}
+}
