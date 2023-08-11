@@ -42,7 +42,7 @@ const Service = () => {
                 >
                     <SwiperSlide>
                         <div className='slide-wrap relative'>
-                            <video autoPlay muted loop playsinline className='absolute top-0 left-0 video-wrap'>
+                            <video autoplay muted loop playsinline className='absolute top-0 left-0 video-wrap'>
                                 <source src={Video} type="video/mp4" />
                             </video>
                             <div className='slide-contents-wrap'>
