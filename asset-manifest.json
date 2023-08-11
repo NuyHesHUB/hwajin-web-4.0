@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/hwajin-web-4.0/static/css/main.f4a11850.css",
-    "main.js": "/hwajin-web-4.0/static/js/main.dd55ecbf.js",
+    "main.css": "/hwajin-web-4.0/static/css/main.93995728.css",
+    "main.js": "/hwajin-web-4.0/static/js/main.ee0a2c99.js",
     "static/js/787.165ba4aa.chunk.js": "/hwajin-web-4.0/static/js/787.165ba4aa.chunk.js",
     "static/media/light-bg.mp4": "/hwajin-web-4.0/static/media/light-bg.e2c87614c1fc20ecbb38.mp4",
     "static/media/about-robotos-right-image.png": "/hwajin-web-4.0/static/media/about-robotos-right-image.8be6a904ef82ac67dc3c.png",
@@ -15,12 +15,12 @@
     "static/media/value-right-icon.svg": "/hwajin-web-4.0/static/media/value-right-icon.90557da8005eadcf2a2ee3bc6694f022.svg",
     "static/media/value-center-icon.svg": "/hwajin-web-4.0/static/media/value-center-icon.7578ae4419bb694dd3d27ed8fe30dd4a.svg",
     "index.html": "/hwajin-web-4.0/index.html",
-    "main.f4a11850.css.map": "/hwajin-web-4.0/static/css/main.f4a11850.css.map",
-    "main.dd55ecbf.js.map": "/hwajin-web-4.0/static/js/main.dd55ecbf.js.map",
+    "main.93995728.css.map": "/hwajin-web-4.0/static/css/main.93995728.css.map",
+    "main.ee0a2c99.js.map": "/hwajin-web-4.0/static/js/main.ee0a2c99.js.map",
     "787.165ba4aa.chunk.js.map": "/hwajin-web-4.0/static/js/787.165ba4aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4a11850.css",
-    "static/js/main.dd55ecbf.js"
+    "static/css/main.93995728.css",
+    "static/js/main.ee0a2c99.js"
   ]
 }
