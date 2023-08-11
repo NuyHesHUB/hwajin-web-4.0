@@ -42,7 +42,7 @@ const Service = () => {
                 >
                     <SwiperSlide>
                         <div className='slide-wrap relative'>
-                            <video autoPlay muted loop className='absolute top-0 left-0 video-wrap'>
+                            <video autoPlay muted loop playsinline className='absolute top-0 left-0 video-wrap'>
                                 <source src={Video} type="video/mp4" />
                             </video>
                             <div className='slide-contents-wrap'>
@@ -65,7 +65,7 @@ const Service = () => {
                     </SwiperSlide>
                     <SwiperSlide>
                         <div className='slide-wrap relative'>
-                            <video autoPlay muted loop className='absolute top-0 left-0 video-wrap'>
+                            <video autoPlay muted loop playsinline className='absolute top-0 left-0 video-wrap'>
                                 <source src={Video} type="video/mp4" />
                             </video>
                             <div className='slide-contents-wrap second-slide-contents-wrap'>
