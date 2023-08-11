@@ -18,7 +18,7 @@ const Home = () => {
         })
     },[])
     return (
-        <div className='w-100 h-screen'> 
+        <div id='home' className='w-100'> 
             <div id='vantaWaves' className='w-100 h-screen relative home-wrap'>
                 <div className='hero'>
                     <h1>상상 그 이상,</h1>
@@ -28,7 +28,7 @@ const Home = () => {
                     </div>
                 </div>
                 <div className='scroll-wrap'>
-                    <div className='absolute bottom-14 left-1/2 transform -translate-x-1/2 w-8 h-12 rounded-3xl border-2 border-white scroll-btn flex justify-center items-center'>
+                    <div className='rounded-3xl border-2 border-white scroll-btn flex justify-center items-center'>
                         <IoIosArrowDown className='arrow-btn' color='#fff' size={20}/>
                     </div>
                 </div>

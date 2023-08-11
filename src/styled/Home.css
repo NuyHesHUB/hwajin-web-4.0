@@ -1,4 +1,7 @@
 *{font-family: 'Noto Sans KR', sans-serif;}
+#home{
+    height: 100vh;   
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -24,9 +27,16 @@
     width: clamp(120px, 8vw, 283px);
     height: clamp(60px, 8vw, 83px);
 }
-.scroll-wrap{
-    
+.scroll-wrap{}
+.scroll-wrap > div{
+    position: absolute;
+    bottom: 3.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2rem;
+    height: 3rem;
 }
+
 .scroll-wrap .arrow-btn{
     animation: arrowDown 1s infinite;
 }
@@ -38,3 +48,8 @@
       transform: translateY(5px);
     }
   }
+
+@media screen and (max-width: 600px) {
+    #home{height: auto;}
+    .scroll-wrap > div{bottom: 7.5rem;}
+}

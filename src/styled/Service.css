@@ -147,7 +147,7 @@
     .desktop-swiper{display: none;}
     .mobile-swiper{display: block;}
     .slide-wrap{width: calc(100vw - (100vw - 100%));}
-    .slide-contents-wrap{flex-direction: column; }
+    .slide-contents-wrap{flex-direction: column; padding: 50px 0;}
     .mobile-service{display: block; animation: slide 10s linear infinite;}
     @keyframes slide {
         0% {
@@ -164,6 +164,6 @@
     .left-contents-wrap-01 p{text-align: center;}
     .second-slide-contents-wrap h4{font-size: 18px; margin-bottom: 15px;}
     .right-mockup-wrap-01{margin-top: 30px;}
-    .right-mockup-wrap-01 img{width: 200px;}
+    .right-mockup-wrap-01 img{width: 220px;}
     .custom-pagination{display: none;}
 }
