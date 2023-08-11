@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import { Pagination, Autoplay } from "swiper";
 import Logo from '../assets/image/robotos-logo.png';
 import Mockup from '../assets/robotos-image/mockup-image.png';
-import Video from '../assets/video/light-bg.mp4';
+/* import Video from '../assets/video/light-bg.mp4'; */
 
 const Service = () => {
 
@@ -42,8 +42,8 @@ const Service = () => {
                 >
                     <SwiperSlide>
                         <div className='slide-wrap relative'>
-                            <video autoplay muted loop playsinline className='absolute top-0 left-0 video-wrap'>
-                                <source src={Video} type="video/mp4" />
+                            <video autoPlay muted loop playsinline className='absolute top-0 left-0 video-wrap'>
+                                <source src={`${process.env.PUBLIC_URL}/video/light-bg.mp4`} type="video/mp4" />
                             </video>
                             <div className='slide-contents-wrap'>
                                 <div className='flex flex-col left-contents-wrap-01'>
@@ -66,7 +66,7 @@ const Service = () => {
                     <SwiperSlide>
                         <div className='slide-wrap relative'>
                             <video autoPlay muted loop playsinline className='absolute top-0 left-0 video-wrap'>
-                                <source src={Video} type="video/mp4" />
+                                <source src={`${process.env.PUBLIC_URL}/video/light-bg.mp4`} type="video/mp4" />
                             </video>
                             <div className='slide-contents-wrap second-slide-contents-wrap'>
                                 <div className='flex flex-col left-contents-wrap-01'>
