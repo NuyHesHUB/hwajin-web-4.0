@@ -50,6 +50,6 @@
   }
 
 @media screen and (max-width: 600px) {
-    #home{height: 100vh;}
+    #home{height: auto;}
     .scroll-wrap > div{bottom: 7.5rem;}
 }
