@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/hwajin-web-4.0/static/css/main.93995728.css",
-    "main.js": "/hwajin-web-4.0/static/js/main.ee0a2c99.js",
+    "main.css": "/hwajin-web-4.0/static/css/main.2cee3f7f.css",
+    "main.js": "/hwajin-web-4.0/static/js/main.5abf548f.js",
     "static/js/787.165ba4aa.chunk.js": "/hwajin-web-4.0/static/js/787.165ba4aa.chunk.js",
-    "static/media/light-bg.mp4": "/hwajin-web-4.0/static/media/light-bg.e2c87614c1fc20ecbb38.mp4",
     "static/media/about-robotos-right-image.png": "/hwajin-web-4.0/static/media/about-robotos-right-image.8be6a904ef82ac67dc3c.png",
     "static/media/about-robotos-left-image.png": "/hwajin-web-4.0/static/media/about-robotos-left-image.2096c65366046d55c5a4.png",
+    "static/media/mobile-bg.png": "/hwajin-web-4.0/static/media/mobile-bg.ac398d7ba3e213bab00f.png",
     "static/media/value-center-image.jpg": "/hwajin-web-4.0/static/media/value-center-image.f4f825b2c5815231b129.jpg",
     "static/media/value-left-image.jpg": "/hwajin-web-4.0/static/media/value-left-image.8465a4b45dfb1d513668.jpg",
+    "static/media/mobile-bg2.png": "/hwajin-web-4.0/static/media/mobile-bg2.2e8aa653cd933e5341bc.png",
     "static/media/mockup-image.png": "/hwajin-web-4.0/static/media/mockup-image.eb02db8cc7a321bff08f.png",
     "static/media/value-right-image.jpg": "/hwajin-web-4.0/static/media/value-right-image.e4b68e42cceb8a983f38.jpg",
     "static/media/logo.png": "/hwajin-web-4.0/static/media/logo.b23622197073defba3d4.png",
@@ -15,12 +16,12 @@
     "static/media/value-right-icon.svg": "/hwajin-web-4.0/static/media/value-right-icon.90557da8005eadcf2a2ee3bc6694f022.svg",
     "static/media/value-center-icon.svg": "/hwajin-web-4.0/static/media/value-center-icon.7578ae4419bb694dd3d27ed8fe30dd4a.svg",
     "index.html": "/hwajin-web-4.0/index.html",
-    "main.93995728.css.map": "/hwajin-web-4.0/static/css/main.93995728.css.map",
-    "main.ee0a2c99.js.map": "/hwajin-web-4.0/static/js/main.ee0a2c99.js.map",
+    "main.2cee3f7f.css.map": "/hwajin-web-4.0/static/css/main.2cee3f7f.css.map",
+    "main.5abf548f.js.map": "/hwajin-web-4.0/static/js/main.5abf548f.js.map",
     "787.165ba4aa.chunk.js.map": "/hwajin-web-4.0/static/js/787.165ba4aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.93995728.css",
-    "static/js/main.ee0a2c99.js"
+    "static/css/main.2cee3f7f.css",
+    "static/js/main.5abf548f.js"
   ]
 }
