@@ -15,7 +15,7 @@
 .about-robotos-title-wrap{}
 .about-robotos-title-wrap h2{
     /* font-size: 72px; */
-    font-size: clamp(45px, 4vw, 72px);
+    font-size: clamp(30px, 4vw, 72px);
     font-weight: bold;
 }
 .about-robotos-img-wrap{
@@ -68,15 +68,13 @@
 }
 .about-robotos-contents-wrap p{
     text-align: center;
-    /* font-size: 24px; */
-    font-size: clamp(18px, 2vw, 24px);
+    font-size: clamp(12px, 2vw, 24px);
     margin-bottom: 56px;
 }
-.about-robotos-contents-wrap span{
+/* .about-robotos-contents-wrap span{
     text-align: center;
-    /* font-size: 24px; */
     font-size: clamp(18px, 2vw, 24px);
-}
+} */
 @media screen and (max-width: 900px) {
     .about-robotos-contents-wrap{padding: 0 30px;}
     .about-robotos-contents-wrap p br{display: none;}

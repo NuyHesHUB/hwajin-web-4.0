@@ -18,7 +18,7 @@ const AboutRobotos = () => {
                                 탐색에서 구매, 예약까지의 과정을 단축해 <br/>
                                 이용자의 편의를 극대화합니다. <br/>
                             </p>
-                            <span className='text-white'>COMING SOON</span>
+                            {/* <span className='text-white'>COMING SOON</span> */}
                         </div>
                     </div>
                     <div className='relative about-robotos-right-wrap'>
@@ -30,7 +30,7 @@ const AboutRobotos = () => {
                                 소비자에게 적절한 맥락에서 <br/>
                                 브랜드 스토리와 매칭경험을 효과적으로 전달합니다.
                             </p>
-                            <span className='text-white'>COMING SOON</span>
+                            {/* <span className='text-white'>COMING SOON</span> */}
                         </div>
                     </div>
                 </div>
