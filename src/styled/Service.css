@@ -123,7 +123,7 @@
 }
 
 @media screen and (max-width: 600px) {
-    .desktop-service-wrap{display: none;}
+    /* .desktop-service-wrap{display: none;} */
     .slide-wrap{width: calc(100vw - (100vw - 100%));}
     .slide-contents-wrap{flex-direction: column; }
     .mobile-service{display: block; animation: slide 10s linear infinite;}
