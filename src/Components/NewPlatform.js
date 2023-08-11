@@ -4,7 +4,7 @@ import Illust from '../assets/robotos-image/illust.png';
 
 const NewPlatform = () => {
     return (
-        <div id='newPlatForm' className='w-100 flex items-center'>
+        <div id='newPlatForm' className='w-100'>
             <div className='relative w-100 newplatform-wrap'>
                 <div className='newplatform-overlay'></div>
                 <div className='newplatform-contents-wrap'>

@@ -5,20 +5,24 @@
 .newplatform-wrap{
     width: 100%;
     /* height: 740px; */
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    background: black;
 }
 .newplatform-overlay{
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    left: 50%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-image: url('../assets/robotos-image/platform-bg.png');
     width: 100vw;
-    height: 100vh;
-    z-index: -1;
+    height: 70vh;
+    z-index: 1;
 }
 .newplatform-contents-wrap{
     width: 100%;
@@ -27,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    z-index: 2;
 }
 .newplatform-img-wrap{
     margin-right: 70px;
@@ -60,11 +64,11 @@
 }
 @media screen and (max-width: 800px) {
     #newPlatForm{height: auto;}
-    .newplatform-wrap{padding: 70px 0;}
+    .newplatform-wrap{/* padding: 70px 0; */ height: 85vh;}
     .newplatform-contents-wrap{flex-direction: column;}
-    .newplatform-img-wrap{margin-right: 0;}
+    .newplatform-img-wrap{margin-right: 0; width: 330px;}
     .newplatform-text-wrap{margin-top: 20px;}
     .newplatform-text-wrap h2{text-align: center;}
     .newplatform-text-wrap p{text-align: center;}
-    .illust-bg{width: 58vw; height: 58vw;}
+    .illust-bg{width: 40vw; height: 40vw;}
 }
