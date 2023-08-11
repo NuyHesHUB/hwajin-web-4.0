@@ -13,7 +13,7 @@ import Video from '../assets/video/light-bg.mp4';
 const Service = () => {
 
     return (
-        <div id='service' className='w-100 bg-black'>
+        <div id='service' className='w-100'>
             {/* <h2 className='mobile-service'>SERVICE</h2> */}
             {/* <p className='mobile-content'>AI 매칭 플랫폼으로 더 나은 비즈니스 환경을 만들어 나갑니다.</p> */}
             <div className='relative flex items-center service-wrap'>
