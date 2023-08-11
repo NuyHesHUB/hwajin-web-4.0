@@ -9,6 +9,7 @@ import { Pagination, Autoplay } from "swiper";
 import Logo from '../assets/image/robotos-logo.png';
 import Mockup from '../assets/robotos-image/mockup-image.png';
 /* import Video from '../assets/video/light-bg.mp4'; */
+import Mbg from '../assets/robotos-image/light-bg.gif'
 
 const Service = () => {
 
@@ -46,6 +47,9 @@ const Service = () => {
                                 <video autoPlay muted loop playsInline className='absolute top-0 left-0 video-wrap'>
                                     <source src={`${process.env.PUBLIC_URL}/video/light-bg.mp4`} type="video/mp4" />
                                 </video>
+                                {/* <div>
+                                    <img src={Mbg} alt="mobilebg"/>
+                                </div> */}
                                 <div className='slide-contents-wrap'>
                                     <div className='flex flex-col left-contents-wrap-01'>
                                         <h3>01<u> / 02</u></h3>
