@@ -1,8 +1,8 @@
 *{font-family: 'Noto Sans KR', sans-serif;}
 #aboutRobotos{
     height: 100vh;
-    /* background: black; */
-    background: red;
+    background: black;
+    /* background: red; */
     /* z-index: -1; */
 }
 .about-robotos-wrap{
@@ -82,6 +82,8 @@
     .about-robotos-contents-wrap p br{display: none;}
 }
 @media screen and (max-width: 600px) {
+    #aboutRobotos{height: auto; padding-top: 50px;}
+    .about-robotos-wrap{height: auto;}
     .about-robotos-img-wrap{flex-direction: column; margin-top: 60px;}
     .about-robotos-left-wrap{width: 100%; height: 450px;}
     .about-robotos-right-wrap{width: 100%; height: 450px;}

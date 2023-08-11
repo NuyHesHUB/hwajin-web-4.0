@@ -11,14 +11,16 @@
     justify-content: center;
 }
 .value-wrap h2{
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: clamp(25px, 3vw, 50px);
     color: #3FA9F5;
 }
 .mobile-value-text{
     display: none;
     margin-top: 10px;
     color: #000;
-    font-size: clamp(18px, 3vw, 18px);
+    /* font-size: clamp(18px, 3vw, 18px); */
+    font-size: clamp(12px, 4vw, 18px);
 }
 .value-contents-wrap{
     margin-top: 50px;
@@ -57,11 +59,12 @@
 }
 .value-text-wrap img{
     width: 85px;
+    width: clamp(50px, 4vw, 85px);
 }
 .value-text-wrap p{
     margin-top: 16px;
     /* font-size: 24px; */
-    font-size: clamp(16px, 1vw, 24px);
+    font-size: clamp(12px, 1vw, 24px);
     color: #fff;
 }
 @media screen and (max-width: 1000px) {

@@ -24,6 +24,9 @@
     width: clamp(120px, 8vw, 283px);
     height: clamp(60px, 8vw, 83px);
 }
+.scroll-wrap{
+    
+}
 .scroll-wrap .arrow-btn{
     animation: arrowDown 1s infinite;
 }

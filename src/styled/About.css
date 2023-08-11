@@ -31,7 +31,8 @@
 }
 .about-text h2{
     /* font-size: 50px; */
-    font-size: clamp(28px, 7vw, 50px);
+    /* font-size: clamp(28px, 7vw, 50px); */
+    font-size: clamp(20px, 5vw, 50px);
 }
 .about-text h2 u{
     font-weight: bold;
@@ -45,7 +46,8 @@
 .about-text .about-contents1{
     /* font-size: 26px; */
     margin-top: 20px;
-    font-size: clamp(18px, 5vw, 26px);
+    /* font-size: clamp(18px, 5vw, 26px); */
+    font-size: clamp(16px, 4vw, 26px);
 }
 .about-text .about-contents1 u{
     color: #3FA9F5;
