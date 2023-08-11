@@ -1,0 +1,52 @@
+#partner{
+    height: 50vh;
+}
+#partnerVantaNet{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner-content-wrap{
+    /* position: absolute !important;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.partner-text-wrap{}
+.partner-text-wrap h2{
+    font-weight: bold; 
+    /* font-size: 72px; */
+    font-size: clamp(28px, 3vw, 72px);
+    text-align: center;
+}
+.partner-text-wrap h2:first-child{color: #3FA9F5;}
+.partner-text-wrap h2:last-child{color: #fff;}
+.partner-box{
+    /* width: 235px; */
+    width: clamp(120px, 10vw, 235px);
+    /* height: 75px; */
+    height: clamp(50px, 10vw, 75px);
+    border: 2px solid #fff;
+    margin: 0 auto;
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.partner-box span{
+    /* font-size: 24px; */
+    font-size: clamp(14px, 3vw, 24px);
+    color: #fff;
+}
+@media screen and (max-width: 600px) {
+    #partner{height: auto;}
+    #partnerVantaNet{height: 250px;}
+    .partner-box{margin-top: 20px;}
+}

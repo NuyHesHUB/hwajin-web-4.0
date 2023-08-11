@@ -26,7 +26,7 @@ const AboutRobotos = () => {
                         <div className='about-robotos-contents-wrap'>
                             <h3 className='text-white'>개인 최적화 AI 도구</h3>
                             <p className='text-white'>
-                                소비자가 원하는 정보를 학습하여 생성된 알고리즘으로, <br/>
+                                소비자가 원하는 정보를 학습하여 생성된 알고리즘으로 <br/>
                                 소비자에게 적절한 맥락에서 <br/>
                                 브랜드 스토리와 매칭경험을 효과적으로 전달합니다.
                             </p>

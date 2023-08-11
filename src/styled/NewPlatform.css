@@ -1,0 +1,70 @@
+*{font-family: 'Noto Sans KR', sans-serif;}
+#newPlatForm{
+    height: 100vh;
+}
+.newplatform-wrap{
+    width: 100%;
+    /* height: 740px; */
+    height: 100%;
+    margin: 0 auto;
+}
+.newplatform-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../assets/robotos-image/platform-bg.png');
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+.newplatform-contents-wrap{
+    width: 100%;
+    height: 100%;
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.newplatform-img-wrap{
+    margin-right: 70px;
+}
+.newplatform-img-wrap img{
+    width: 480px;
+}
+.illust-bg{
+    width: 320px;
+    height: 320px;
+    /* background: red; */
+    background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(75,69,92,1) 35%, rgba(207,207,207,1) 100%);
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: -1;
+}
+.newplatform-text-wrap{}
+.newplatform-text-wrap h2{
+    font-weight: bold;
+    font-size: clamp(28px, 3vw, 60px);
+    color: #fff;
+    margin-bottom: 32px;
+}
+.newplatform-text-wrap p{
+    font-size: clamp(14px, 2vw, 24px);
+    color: #fff;
+}
+@media screen and (max-width: 800px) {
+    #newPlatForm{height: auto;}
+    .newplatform-wrap{padding: 70px 0;}
+    .newplatform-contents-wrap{flex-direction: column;}
+    .newplatform-img-wrap{margin-right: 0;}
+    .newplatform-text-wrap{margin-top: 20px;}
+    .newplatform-text-wrap h2{text-align: center;}
+    .newplatform-text-wrap p{text-align: center;}
+    .illust-bg{width: 58vw; height: 58vw;}
+}
