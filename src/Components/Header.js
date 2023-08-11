@@ -6,7 +6,7 @@ import Logo from '../assets/image/logo.png';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
-  const headerHeight = 100;
+  const headerHeight = 85;
 
   const handleScroll = () => {
     const isScrolled = window.scrollY > 0;

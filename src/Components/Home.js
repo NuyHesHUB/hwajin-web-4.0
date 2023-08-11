@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import WAVES from 'vanta/src/vanta.waves';
 import { IoIosArrowDown } from 'react-icons/io';
 import '../styled/Home.css'
+import { Link } from 'react-scroll';
 
 const Home = () => {
     useEffect(() => {
@@ -23,9 +24,11 @@ const Home = () => {
                 <div className='hero'>
                     <h1>상상 그 이상,</h1>
                     <p>IT기술과 서비스로 더 나은 삶을 향해</p>
-                    <div className='border-solid border-2 border-white mt-16 flex justify-center items-center more-btn'>
-                        <span>VIEW MORE</span>
-                    </div>
+                    <Link to="about" smooth={true} duration={500} style={{cursor:'pointer'}}>
+                        <div className='border-solid border-2 border-white mt-16 flex justify-center items-center more-btn'>
+                            <span>VIEW MORE</span>
+                        </div>
+                    </Link>
                 </div>
                 <div className='scroll-wrap'>
                     <div className='rounded-3xl border-2 border-white scroll-btn flex justify-center items-center'>

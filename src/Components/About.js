@@ -1,8 +1,13 @@
 import React, { useEffect } from 'react';
 import '../styled/About.css';
 import NET from 'vanta/src/vanta.net';
+import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const About = () => {
+
+    const fadeIn1 = useScrollFadeIn('up', 1, 0);
+    const fadeIn2 = useScrollFadeIn('left', 1, 0);
+
     useEffect(() => {
         NET({
             el: '#vantaNet',
@@ -26,7 +31,7 @@ const About = () => {
     return (
         <div id='about' className='w-100'>
             <div className='flex justify-between items-center about-wrap'>
-                <div className='about-text'>
+                <div ref={fadeIn1.ref} style={fadeIn1.style} className='about-text'>
                     <h3 className='mobile-inovation'>INOVATION</h3>
                     <p className='about-title'>ABOUT</p>
                     <h2>끊임없는 연구와</h2>
@@ -41,7 +46,7 @@ const About = () => {
                     </div>
                     <h3 className='desktop-inovation'>INOVATION</h3>
                 </div>
-                <div className='vanta-wrap'>
+                <div ref={fadeIn2.ref} style={fadeIn2.style} className='vanta-wrap'>
                     <div id='vantaNet'>
                         <div>
                             <p>
