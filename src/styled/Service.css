@@ -19,7 +19,6 @@
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    background: black;
 }
 .slide-wrap{width: 100vw; height: 100vh;}
 .video-wrap{
@@ -27,6 +26,7 @@
     height: 100vh;
     object-fit: cover;
     filter: brightness(60%);
+    z-index: -1;
 }
 .slide-contents-wrap{
     position: absolute;
@@ -40,7 +40,9 @@
     justify-content: space-around;
     align-items: center;
 }
-.second-slide-contents-wrap{}
+.second-slide-contents-wrap{
+    z-index: 1;
+}
 .second-slide-contents-wrap h4{
     /* font-size: 40px; */
     font-size: clamp(20px, 3vw, 40px);

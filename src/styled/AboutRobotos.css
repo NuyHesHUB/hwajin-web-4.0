@@ -1,7 +1,8 @@
 *{font-family: 'Noto Sans KR', sans-serif;}
 #aboutRobotos{
     height: 100vh;
-    background: black;
+    /* background: black; */
+    background: red;
     /* z-index: -1; */
 }
 .about-robotos-wrap{
