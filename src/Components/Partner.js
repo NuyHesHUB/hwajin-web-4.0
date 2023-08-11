@@ -33,9 +33,11 @@ const Partner = () => {
                             <h2>당신의 든든한 파트너</h2>
                             <h2>화진로보틱스</h2>
                         </div>
+                        <a href='https://docs.google.com/forms/d/e/1FAIpQLSf05_vX4gy_PY6OYXuyWbosedkNC_sWYiYM53JPgn7tpKLq9g/viewform?usp=sf_link' target='_blank' rel="noreferrer">
                         <div className='partner-box'>
                             <span>제휴문의</span>
                         </div>
+                        </a>
                     </div>
                 </div>
             </div>

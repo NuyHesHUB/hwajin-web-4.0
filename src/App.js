@@ -13,7 +13,7 @@ import Footer from './Components/Footer';
 function App() {
 
   return (
-    <div className="app-wrap ">
+    <div className="app-wrap">
         <Header/>
         <Home/>
         <About/>
