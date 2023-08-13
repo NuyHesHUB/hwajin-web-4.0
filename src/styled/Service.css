@@ -24,6 +24,12 @@
 .mobile-swiper{display: none;}
 
 .slide-wrap{width: 100vw; height: 100vh;}
+.swiper-button-prev{
+    color: #fff !important;
+}
+.swiper-button-next{
+    color: #fff !important;
+}
 .video-wrap{
     width: 100vw;
     height: 100vh;

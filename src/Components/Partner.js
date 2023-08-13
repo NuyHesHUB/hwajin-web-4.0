@@ -19,8 +19,8 @@ const Partner = () => {
             /* backgroundColor: 0x002047, */
             backgroundColor: 0x051234,
             points: 10.00,
-            spacing: 25.00,
-            zoom: 10
+            spacing: 17.00,
+            zoom: 20
         })
         
     },[])

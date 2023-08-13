@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination'; 
-import { Pagination, Autoplay } from "swiper";
+import { Pagination, Autoplay, Navigation } from "swiper";
 import Logo from '../assets/image/robotos-logo.png';
 import Mockup from '../assets/robotos-image/mockup-image.png';
 /* import Video from '../assets/video/light-bg.mp4'; */
@@ -27,7 +27,7 @@ const Service = () => {
                         }}
                         modules={[Pagination, Autoplay]}
                         speed={500}
-                        loop={true}
+                        loop={false}
                         spaceBetween={50}
                         slidesPerView={1}
                         navigation={false}
@@ -109,21 +109,12 @@ const Service = () => {
                         autoplay={{
                             delay: 10000,
                         }}
-                        modules={[Pagination, Autoplay]}
+                        modules={[Navigation, Autoplay]}
                         speed={500}
-                        loop={true}
+                        loop={false}
                         spaceBetween={50}
                         slidesPerView={1}
-                        navigation={false}
-                        /* pagination={{
-                            el:'.custom-pagination',
-                            clickable: true,
-                            bulletClass:"custom_bullet",
-                            bulletActiveClass: "swiper-pagination-custom-bullet-active",
-                            renderBullet: function (index, className) {
-                                return '<div class="'+className+'"></div>'
-                            },
-                        }} */
+                        navigation={true}
                     >
                         <SwiperSlide>
                             <div className='slide-wrap relative'>
