@@ -11,8 +11,21 @@ import Mockup from '../assets/robotos-image/mockup-image.png';
 /* import Video from '../assets/video/light-bg.mp4'; */
 import Mbg1 from '../assets/robotos-image/mobile-bg.png';
 import Mbg2 from '../assets/robotos-image/mobile-bg2.png';
+import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const Service = () => {
+    /* desk-slide-01  */
+    const fadeIn1 = useScrollFadeIn('up', 1, 0);
+    const fadeIn2 = useScrollFadeIn('left', 1, 0);
+    /* desk-slide-02  */
+    const fadeIn3 = useScrollFadeIn('up', 1, 0);
+    const fadeIn4 = useScrollFadeIn('left', 1, 0);
+    /* mobile-slide-01  */
+    const fadeIn5 = useScrollFadeIn('up', 1, 0);
+    const fadeIn6 = useScrollFadeIn('left', 1, 0);
+    /* mobile-slide-02  */
+    const fadeIn7 = useScrollFadeIn('up', 1, 0);
+    const fadeIn8 = useScrollFadeIn('left', 1, 0);
 
     return (
         <div id='service' className='w-100'>
@@ -50,7 +63,7 @@ const Service = () => {
                                     <img src={Mbg} alt="mobilebg"/>
                                 </div> */}
                                 <div className='slide-contents-wrap'>
-                                    <div className='flex flex-col left-contents-wrap-01'>
+                                    <div ref={fadeIn1.ref} style={fadeIn1.style} className='flex flex-col left-contents-wrap-01'>
                                         <h3>01<u> / 02</u></h3>
                                         <img src={Logo} alt="logo"/>
                                         <h2>AI매칭 플랫폼 로보토스</h2>
@@ -62,7 +75,7 @@ const Service = () => {
                                         <span>COMING SOON</span>
                                     </div>
                                     <div className='right-mockup-wrap-01'>
-                                        <img src={Mockup} alt="mockup"/>
+                                        <img ref={fadeIn2.ref} style={fadeIn2.style} src={Mockup} alt="mockup"/>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +89,7 @@ const Service = () => {
                                     <img src={Mbg} alt="mobilebg"/>
                                 </div> */}
                                 <div className='slide-contents-wrap second-slide-contents-wrap'>
-                                    <div className='flex flex-col left-contents-wrap-01'>
+                                    <div ref={fadeIn3.ref} style={fadeIn3.style} className='flex flex-col left-contents-wrap-01'>
                                         <h3>02<u> / 02</u></h3>
                                         <img src={Logo} alt="logo"/>
                                         <h2>AI매칭 플랫폼 로보토스</h2>
@@ -90,7 +103,7 @@ const Service = () => {
                                         </p>
                                     </div>
                                     <div className='right-mockup-wrap-01'>
-                                        <img src={Mockup} alt="mockup"/>
+                                        <img ref={fadeIn4.ref} style={fadeIn4.style} src={Mockup} alt="mockup"/>
                                     </div>
                                 </div>
                             </div>
@@ -122,7 +135,7 @@ const Service = () => {
                                     <img src={Mbg2} alt="mobilebg"/>
                                 </div>
                                 <div className='slide-contents-wrap'>
-                                    <div className='flex flex-col left-contents-wrap-01'>
+                                    <div ref={fadeIn5.ref} style={fadeIn5.style} className='flex flex-col left-contents-wrap-01'>
                                         <h3>01<u> / 02</u></h3>
                                         <img src={Logo} alt="logo"/>
                                         <h2>AI매칭 플랫폼 로보토스</h2>
@@ -134,7 +147,7 @@ const Service = () => {
                                         <span>COMING SOON</span>
                                     </div>
                                     <div className='right-mockup-wrap-01'>
-                                        <img src={Mockup} alt="mockup"/>
+                                        <img ref={fadeIn6.ref} style={fadeIn6.style} src={Mockup} alt="mockup"/>
                                     </div>
                                 </div>
                             </div>
@@ -145,7 +158,7 @@ const Service = () => {
                                     <img src={Mbg1} alt="mobilebg"/>
                                 </div>
                                 <div className='slide-contents-wrap'>
-                                    <div className='flex flex-col left-contents-wrap-01'>
+                                    <div ref={fadeIn7.ref} style={fadeIn7.style} className='flex flex-col left-contents-wrap-01'>
                                         <h3>02<u> / 02</u></h3>
                                         <img src={Logo} alt="logo"/>
                                         <h2>AI매칭 플랫폼 로보토스</h2>
@@ -159,7 +172,7 @@ const Service = () => {
                                         </p>
                                     </div>
                                     <div className='right-mockup-wrap-01'>
-                                        <img src={Mockup} alt="mockup"/>
+                                        <img ref={fadeIn8.ref} style={fadeIn8.style} src={Mockup} alt="mockup"/>
                                     </div>
                                 </div>
                             </div>

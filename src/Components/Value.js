@@ -3,8 +3,12 @@ import '../styled/Value.css';
 import Icon1 from '../assets/value-image/value-left-icon.svg'
 import Icon2 from '../assets/value-image/value-center-icon.svg'
 import Icon3 from '../assets/value-image/value-right-icon.svg'
+import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const Value = () => {
+    const fadeIn1 = useScrollFadeIn('right', 1, 0);
+    const fadeIn2 = useScrollFadeIn('right', 1, 100);
+    const fadeIn3 = useScrollFadeIn('right', 1, 200);
     return (
         <div id='value' className='w-100 flex items-center'>
             <div className='flex items-center value-wrap'>
@@ -14,7 +18,7 @@ const Value = () => {
                     우리는 약속을 지키며 그 결과를 만들어내고 있습니다.
                 </p>
                 <div className='flex justify-center w-full value-contents-wrap'>
-                    <div>
+                    <div ref={fadeIn1.ref} style={fadeIn1.style}>
                         <div className='relative w-full h-full value-img-wrap'>
                             <div className='v-img-overlay left-img-overlay'></div>
                             <div className='absolute value-text-wrap'>
@@ -27,7 +31,7 @@ const Value = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div ref={fadeIn2.ref} style={fadeIn2.style}>
                         <div className='relative w-full h-full value-img-wrap'>
                             <div className='v-img-overlay right-img-overlay'></div>
                             <div className='absolute value-text-wrap'>
@@ -42,7 +46,7 @@ const Value = () => {
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div ref={fadeIn3.ref} style={fadeIn3.style}>
                         <div className='relative w-full h-full value-img-wrap'>
                             <div className='v-img-overlay center-img-overlay'></div>
                             <div className='absolute value-text-wrap'>

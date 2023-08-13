@@ -3,8 +3,11 @@ import WAVES from 'vanta/src/vanta.waves';
 import { IoIosArrowDown } from 'react-icons/io';
 import '../styled/Home.css'
 import { Link } from 'react-scroll';
+import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const Home = () => {
+    const fadeIn1 = useScrollFadeIn('up', 1, 0);
+
     useEffect(() => {
         WAVES({
             el: '#vantaWaves',
@@ -21,7 +24,7 @@ const Home = () => {
     return (
         <div id='home' className='w-100'> 
             <div id='vantaWaves' className='w-100 relative home-wrap'>
-                <div className='hero'>
+                <div ref={fadeIn1.ref} style={fadeIn1.style} className='hero'>
                     <h1>상상 그 이상</h1>
                     <p>IT기술과 서비스로 더 나은 삶을 향해</p>
                     <Link to="about" smooth={true} duration={500} style={{cursor:'pointer'}}>

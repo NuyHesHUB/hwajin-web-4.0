@@ -1,7 +1,10 @@
 import React from 'react';
 import '../styled/AboutRobotos.css';
+import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const AboutRobotos = () => {
+    const fadeIn1 = useScrollFadeIn('right', 1, 0);
+    const fadeIn2 = useScrollFadeIn('left', 1, 0);
     return (
         <div id='aboutRobotos' className='w-100 flex items-center'>
             <div className='relative w-100  flex flex-col items-center about-robotos-wrap'>
@@ -9,7 +12,7 @@ const AboutRobotos = () => {
                     <h2 className='text-white'>ABOUT ROBOTOS</h2>
                 </div>
                 <div className='flex about-robotos-img-wrap'>
-                    <div className='relative about-robotos-left-wrap'>
+                    <div ref={fadeIn1.ref} style={fadeIn1.style} className='relative about-robotos-left-wrap'>
                         <div className='about-robotos-overlay left-overlay'></div>
                         <div className='about-robotos-contents-wrap'>
                             <h3 className='text-white'>스마트 AI 인트로</h3>
@@ -21,7 +24,7 @@ const AboutRobotos = () => {
                             {/* <span className='text-white'>COMING SOON</span> */}
                         </div>
                     </div>
-                    <div className='relative about-robotos-right-wrap'>
+                    <div ref={fadeIn2.ref} style={fadeIn2.style} className='relative about-robotos-right-wrap'>
                         <div className='about-robotos-overlay right-overlay'></div>
                         <div className='about-robotos-contents-wrap'>
                             <h3 className='text-white'>개인 최적화 AI 도구</h3>

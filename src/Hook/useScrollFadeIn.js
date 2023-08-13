@@ -12,7 +12,7 @@ const useScrollFadeIn = (direction = 'up', duration = 1, delay = 0) => {
       case 'left':
         return 'translate3d(50%, 0, 0)';
       case 'right':
-        return 'translate3d(-10%, 0, 0)';
+        return 'translate3d(-50%, 0, 0)';
       case 'img':
         return 'translate3d(50%, -50%, 0)';
       case 'rightToLeft': // New case for right-to-left animation
