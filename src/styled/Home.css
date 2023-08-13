@@ -2,6 +2,9 @@
 #home{
     height: 100vh;   
 }
+#vantaWaves{
+    height: 950px;
+}
 .hero{
     display: flex;
     flex-direction: column;
@@ -50,6 +53,6 @@
   }
 
 @media screen and (max-width: 600px) {
-    #home{height: auto;}
+    #home{height: 950px;}
     .scroll-wrap > div{bottom: 7.5rem;}
 }

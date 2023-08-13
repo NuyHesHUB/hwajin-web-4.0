@@ -20,7 +20,7 @@ const Home = () => {
     },[])
     return (
         <div id='home' className='w-100'> 
-            <div id='vantaWaves' className='w-100 h-screen relative home-wrap'>
+            <div id='vantaWaves' className='w-100 relative home-wrap'>
                 <div className='hero'>
                     <h1>상상 그 이상</h1>
                     <p>IT기술과 서비스로 더 나은 삶을 향해</p>
