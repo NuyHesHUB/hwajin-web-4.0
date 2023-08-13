@@ -9,8 +9,8 @@ const Header = () => {
   const headerHeight = 0;
 
   const handleScroll = () => {
-    /* const isScrolled = window.scrollY > 0;
-    setScrolled(isScrolled); */
+    const isScrolled = window.scrollY > 0;
+    setScrolled(isScrolled);
   };
 
   useEffect(() => {

@@ -3,7 +3,7 @@
     height: 100vh;   
 }
 #vantaWaves{
-    height: 950px;
+    height: 100vh;
 }
 .hero{
     display: flex;
@@ -53,6 +53,7 @@
   }
 
 @media screen and (max-width: 600px) {
-    #home{height: 950px;}
+    #home{height: 100%;}
+    #vantaWaves{}
     .scroll-wrap > div{bottom: 7.5rem;}
 }
