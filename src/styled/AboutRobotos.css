@@ -2,8 +2,6 @@
 #aboutRobotos{
     height: 100vh;
     background: black;
-    /* background: red; */
-    /* z-index: -1; */
 }
 .about-robotos-wrap{
     width: 100%;
@@ -76,10 +74,18 @@
     text-align: center;
     font-size: clamp(18px, 2vw, 24px);
 } */
+
+/*--------------------------------------------*\
+                Max-Width 900px
+\*--------------------------------------------*/
 @media screen and (max-width: 900px) {
     .about-robotos-contents-wrap{padding: 0 30px;}
     .about-robotos-contents-wrap p br{display: none;}
 }
+
+/*--------------------------------------------*\
+                Max-Width 600px
+\*--------------------------------------------*/
 @media screen and (max-width: 600px) {
     #aboutRobotos{height: auto; padding-top: 50px;}
     .about-robotos-wrap{height: auto;}

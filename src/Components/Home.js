@@ -1,13 +1,20 @@
 import React, { useEffect } from 'react';
+/* Styled */
+import '../styled/Home.css'
+/* Hook */
+import useScrollFadeIn from '../Hook/useScrollFadeIn';
+/* Library */
 import WAVES from 'vanta/src/vanta.waves';
 import { IoIosArrowDown } from 'react-icons/io';
-import '../styled/Home.css'
 import { Link } from 'react-scroll';
-import useScrollFadeIn from '../Hook/useScrollFadeIn';
+
 
 const Home = () => {
+
+    /* Scroll Event Hook */
     const fadeIn1 = useScrollFadeIn('up', 1, 0);
 
+    /* Vanta.js */
     useEffect(() => {
         WAVES({
             el: '#vantaWaves',
@@ -21,6 +28,7 @@ const Home = () => {
             zoom: 0.9
         })
     },[])
+    
     return (
         <div id='home' className='w-100'> 
             <div id='vantaWaves' className='w-100 relative home-wrap'>

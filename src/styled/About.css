@@ -20,7 +20,7 @@
     border-radius: 20px;
 }
 #vantaNet div{display: none;}
-.about-text{}
+/* .about-text{} */
 .mobile-inovation{
     display: none;
 }
@@ -75,6 +75,10 @@
 .about-text div p{
     font-size: clamp(14px, 5vw, 16px);
 }
+
+/*--------------------------------------------*\
+                Max-Width 1000px
+\*--------------------------------------------*/
 @media screen and (max-width: 1000px) {
     .about-wrap{flex-direction: column; padding: 0;}
     .about-text .about-title{text-align: center;}
@@ -97,6 +101,10 @@
         }
       }
 }
+
+/*--------------------------------------------*\
+                Max-Width 600px
+\*--------------------------------------------*/
 @media screen and (max-width: 600px) {
     #about{height: auto;}
     .about-wrap{height: 85%;}

@@ -1,18 +1,23 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-scroll';
+/* Styled */
 import '../styled/Header.css';
-
+/* Library */
+import { Link } from 'react-scroll';
+/* Image */
 import Logo from '../assets/image/logo.png';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
-  const headerHeight = 0;
+  const headerHeight = 85;
 
+  /*--------------------------------------------*\
+                ScrollY > 0 Event
+  \*--------------------------------------------*/
   const handleScroll = () => {
     const isScrolled = window.scrollY > 0;
     setScrolled(isScrolled);
   };
-
+  
   useEffect(() => {
     window.addEventListener('scroll', handleScroll);
     return () => {
@@ -32,11 +37,11 @@ const Header = () => {
 
   return (
     <header
-    id="header"
-    className={`${
-      scrolled || isMenuOpen ? 'header-scrolled' : 'header-wrap'
-    }`}
-  >
+      id="header"
+      className={`${
+        scrolled || isMenuOpen ? 'header-scrolled' : 'header-wrap'
+      }`}
+    >
       <div className='header-box'>
         <div className='header-left'>
           <Link to="home" smooth={true} duration={500}>

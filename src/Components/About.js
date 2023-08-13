@@ -1,10 +1,14 @@
 import React, { useEffect } from 'react';
+/* Styled */
 import '../styled/About.css';
+/* Vanta.js */
 import NET from 'vanta/src/vanta.net';
+/* Hook */
 import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const About = () => {
 
+    /* Scroll Event Hook */
     const fadeIn1 = useScrollFadeIn('up', 1, 0);
     const fadeIn2 = useScrollFadeIn('left', 1, 0);
 
@@ -14,13 +18,9 @@ const About = () => {
             mouseControls: true,
             touchControls: true,
             gyroControls: false,
-            /* minHeight: 300.00,
-            minWidth: 300.00, */
             scale: 1.00,
             scaleMobile: 1.00,
-            /* color: 0x0271ff, */
             color: 0x3FA9F5,
-            /* backgroundColor: 0x002047, */
             backgroundColor: 0x071A4B,
             points: 7.00,
             spacing: 15.00,
@@ -28,6 +28,7 @@ const About = () => {
         })
         
     },[])
+    
     return (
         <div id='about' className='w-100'>
             <div className='flex justify-between items-center about-wrap'>

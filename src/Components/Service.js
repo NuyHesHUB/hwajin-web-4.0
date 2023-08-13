@@ -1,19 +1,27 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
+/* Styled */
 import '../styled/Service.css';
+/* Hook */
+import useScrollFadeIn from '../Hook/useScrollFadeIn';
+
+/* Library */
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination, Autoplay, Navigation } from "swiper";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/effect-fade';
 import 'swiper/css/pagination'; 
-import { Pagination, Autoplay, Navigation } from "swiper";
+
+/* Image */
 import Logo from '../assets/image/robotos-logo.png';
 import Mockup from '../assets/robotos-image/mockup-image.png';
-/* import Video from '../assets/video/light-bg.mp4'; */
 import Mbg1 from '../assets/robotos-image/mobile-bg.png';
 import Mbg2 from '../assets/robotos-image/mobile-bg2.png';
-import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const Service = () => {
+
+    /* Scroll Evnet Hook */
+    
     /* desk-slide-01  */
     const fadeIn1 = useScrollFadeIn('up', 1, 0);
     const fadeIn2 = useScrollFadeIn('left', 1, 0);

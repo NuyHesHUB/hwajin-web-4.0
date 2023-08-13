@@ -1,14 +1,20 @@
 import React from 'react';
+/* Styled */
 import '../styled/Value.css';
+/* Hook */
+import useScrollFadeIn from '../Hook/useScrollFadeIn';
+/* Image */
 import Icon1 from '../assets/value-image/value-left-icon.svg'
 import Icon2 from '../assets/value-image/value-center-icon.svg'
 import Icon3 from '../assets/value-image/value-right-icon.svg'
-import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const Value = () => {
+
+    /* Scroll Event Hook */
     const fadeIn1 = useScrollFadeIn('right', 1, 0);
     const fadeIn2 = useScrollFadeIn('right', 1, 100);
     const fadeIn3 = useScrollFadeIn('right', 1, 200);
+    
     return (
         <div id='value' className='w-100 flex items-center'>
             <div className='flex items-center value-wrap'>

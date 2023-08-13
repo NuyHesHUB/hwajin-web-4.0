@@ -1,29 +1,28 @@
 import React, { useEffect } from 'react';
-import NET from 'vanta/src/vanta.net';
+/* Styled */
 import '../styled/Partner.css';
+/* Library */
+import NET from 'vanta/src/vanta.net';
 
 const Partner = () => {
 
+    /* Vanta.js */
     useEffect(() => {
         NET({
             el: '#partnerVantaNet',
             mouseControls: false,
             touchControls: false,
             gyroControls: false,
-            /* minHeight: 300.00,
-            minWidth: 300.00, */
             scale: 1.00,
             scaleMobile: 1.00,
-            /* color: 0x0271ff, */
             color: 0x3FA9F5,
-            /* backgroundColor: 0x002047, */
             backgroundColor: 0x051234,
             points: 10.00,
             spacing: 17.00,
             zoom: 20
         })
-        
     },[])
+    
     return (
         <div id='partner' className='w-100 flex items-center'>
             <div className='relative w-100 partner-wrap'>

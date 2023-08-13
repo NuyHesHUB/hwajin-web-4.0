@@ -67,6 +67,10 @@
     font-size: clamp(14px, 1vw, 24px);
     color: #fff;
 }
+
+/*--------------------------------------------*\
+                Max-Width 1000px
+\*--------------------------------------------*/
 @media screen and (max-width: 1000px) {
     #value{height: auto; margin-top: 30px;}
     .mobile-value-text{display: block;}

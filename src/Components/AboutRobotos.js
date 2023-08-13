@@ -1,10 +1,15 @@
 import React from 'react';
+/* Styled */
 import '../styled/AboutRobotos.css';
+/* Hook */
 import useScrollFadeIn from '../Hook/useScrollFadeIn';
 
 const AboutRobotos = () => {
+
+    /* Scroll Event Hook */
     const fadeIn1 = useScrollFadeIn('right', 1, 0);
     const fadeIn2 = useScrollFadeIn('left', 1, 0);
+    
     return (
         <div id='aboutRobotos' className='w-100 flex items-center'>
             <div className='relative w-100  flex flex-col items-center about-robotos-wrap'>

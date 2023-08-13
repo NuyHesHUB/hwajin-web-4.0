@@ -37,9 +37,17 @@
     color: #fff;
     margin: 5px 0;
 }
+
+/*--------------------------------------------*\
+                Max-Width 2000px
+\*--------------------------------------------*/
 @media screen and (max-width: 2000px) {
     .footer-container{width: 100%; padding-left: 70px; padding-right: 70px;}
 }
+
+/*--------------------------------------------*\
+                Max-Width 600px
+\*--------------------------------------------*/
 @media screen and (max-width: 600px) {
     #footer{height: 210px;}
     .footer-container{align-items: center; justify-content: space-around;}

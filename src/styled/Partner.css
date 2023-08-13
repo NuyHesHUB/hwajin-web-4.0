@@ -20,7 +20,7 @@
     flex-direction: column;
     align-items: center;
 }
-.partner-text-wrap{}
+/* .partner-text-wrap{} */
 .partner-text-wrap h2{
     font-weight: bold; 
     /* font-size: 72px; */
@@ -46,6 +46,10 @@
     font-size: clamp(14px, 3vw, 24px);
     color: #fff;
 }
+
+/*--------------------------------------------*\
+                Max-Width 600px
+\*--------------------------------------------*/
 @media screen and (max-width: 600px) {
     #partner{height: auto;}
     .partner-wrap{height: 300px;}

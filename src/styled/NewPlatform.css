@@ -51,7 +51,7 @@
     border-radius: 50%;
     z-index: -1;
 }
-.newplatform-text-wrap{}
+/* .newplatform-text-wrap{} */
 .newplatform-text-wrap h2{
     font-weight: bold;
     font-size: clamp(28px, 3vw, 60px);
@@ -62,6 +62,10 @@
     font-size: clamp(14px, 2vw, 24px);
     color: #fff;
 }
+
+/*--------------------------------------------*\
+                Max-Width 800px
+\*--------------------------------------------*/
 @media screen and (max-width: 800px) {
     #newPlatForm{height: auto;}
     .newplatform-wrap{/* padding: 70px 0; */ /* height: 85vh; */ height: 700px;}

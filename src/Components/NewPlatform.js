@@ -1,11 +1,17 @@
 import React from 'react';
+/* Styled */
 import '../styled/NewPlatform.css';
-import Illust from '../assets/robotos-image/illust.png';
+/* Hook */
 import useScrollFadeIn from '../Hook/useScrollFadeIn';
+/* Image */
+import Illust from '../assets/robotos-image/illust.png';
 
 const NewPlatform = () => {
+
+    /* Scroll Event Hook */
     const fadeIn1 = useScrollFadeIn('up', 1, 0);
     const fadeIn2 = useScrollFadeIn('up', 1, 100);
+    
     return (
         <div id='newPlatForm' className='w-100'>
             <div className='relative w-100 newplatform-wrap'>
