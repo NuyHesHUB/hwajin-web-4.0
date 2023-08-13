@@ -53,7 +53,7 @@
   }
 
 @media screen and (max-width: 600px) {
-    #home{height: 100%;}
-    #vantaWaves{}
+    #home{height: auto;}
+    #vantaWaves{height: 900px;}
     .scroll-wrap > div{bottom: 7.5rem;}
 }
