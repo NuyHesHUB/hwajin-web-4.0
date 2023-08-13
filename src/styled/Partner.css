@@ -48,6 +48,7 @@
 }
 @media screen and (max-width: 600px) {
     #partner{height: auto;}
+    .partner-wrap{height: 300px;}
     #partnerVantaNet{height: 250px;}
     .partner-box{margin-top: 20px;}
 }

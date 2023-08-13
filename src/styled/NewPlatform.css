@@ -64,7 +64,8 @@
 }
 @media screen and (max-width: 800px) {
     #newPlatForm{height: auto;}
-    .newplatform-wrap{/* padding: 70px 0; */ height: 85vh;}
+    .newplatform-wrap{/* padding: 70px 0; */ /* height: 85vh; */ height: 700px;}
+    .newplatform-overlay{height: 700px;}
     .newplatform-contents-wrap{flex-direction: column;}
     .newplatform-img-wrap{margin-right: 0; width: 330px;}
     .newplatform-text-wrap{margin-top: 20px;}
