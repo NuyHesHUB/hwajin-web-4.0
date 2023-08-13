@@ -6,11 +6,11 @@ import Logo from '../assets/image/logo.png';
 
 const Header = () => {
   const [scrolled, setScrolled] = useState(false);
-  const headerHeight = 85;
+  const headerHeight = 0;
 
   const handleScroll = () => {
-    const isScrolled = window.scrollY > 0;
-    setScrolled(isScrolled);
+    /* const isScrolled = window.scrollY > 0;
+    setScrolled(isScrolled); */
   };
 
   useEffect(() => {
