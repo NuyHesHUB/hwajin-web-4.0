@@ -21,6 +21,8 @@
 .desktop-service-wrap{width: 100%; height: 100%; margin: 0 auto;}
 .mobile-service-wrap{width: 100%; height: 100%; margin: 0 auto;}
 .desktop-swiper{display: block;}
+/* .swiper-wrapper{width: 100vw !important;}
+.swiper-slide{width: 100vw !important; margin-right: 0 !important; padding-right: 50px;} */
 .mobile-swiper{display: none;}
 
 .slide-wrap{width: 100vw; height: 100vh;}
