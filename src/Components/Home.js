@@ -12,7 +12,7 @@ import { Link } from 'react-scroll';
 const Home = () => {
 
     /* Scroll Event Hook */
-    const fadeIn1 = useScrollFadeIn('up', 1, 0);
+    const fadeIn1 = useScrollFadeIn('up', 2, 0);
 
     /* Vanta.js */
     useEffect(() => {

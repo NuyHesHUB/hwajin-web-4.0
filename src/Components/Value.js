@@ -12,8 +12,8 @@ const Value = () => {
 
     /* Scroll Event Hook */
     const fadeIn1 = useScrollFadeIn('right', 1, 0);
-    const fadeIn2 = useScrollFadeIn('right', 1, 100);
-    const fadeIn3 = useScrollFadeIn('right', 1, 200);
+    const fadeIn2 = useScrollFadeIn('right', 1, 200);
+    const fadeIn3 = useScrollFadeIn('right', 1, 400);
     
     return (
         <div id='value' className='w-100 flex items-center'>

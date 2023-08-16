@@ -9,15 +9,16 @@ import Illust from '../assets/robotos-image/illust.png';
 const NewPlatform = () => {
 
     /* Scroll Event Hook */
-    const fadeIn1 = useScrollFadeIn('up', 1, 0);
-    const fadeIn2 = useScrollFadeIn('up', 1, 100);
+    const fadeIn1 = useScrollFadeIn('up', 2, 0);
+    const fadeIn2 = useScrollFadeIn('up', 2, 0);
+    const fadeIn3 = useScrollFadeIn('up', 2, 0);
     
     return (
         <div id='newPlatForm' className='w-100'>
             <div className='relative w-100 newplatform-wrap'>
                 <div className='newplatform-overlay'></div>
                 <div className='newplatform-contents-wrap'>
-                    <div className='w-100 relative newplatform-img-wrap'>
+                    <div ref={fadeIn3.ref} style={fadeIn3.style} className='w-100 relative newplatform-img-wrap'>
                         <img src={Illust} alt="platformbackground"/>
                         <div className='illust-bg'></div>
                     </div>

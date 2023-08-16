@@ -40,7 +40,8 @@ const Footer = () => {
                         </div>
                         <div className='bottom-text-box text-flex'>
                             <p>
-                                All Rights Reserved Hwajinrobotics Inc.
+                               {/*  All Rights Reserved Hwajinrobotics Inc. */}
+                               Copyright&copy;Hwajinrobotics Inc.
                             </p>
                         </div>
                     </div>

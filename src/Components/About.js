@@ -40,9 +40,9 @@ const About = () => {
                     <p className='about-contents1'><u>기술과 서비스</u>로 더 나은 삶을 향해</p>
                     <div>
                         <p>
-                            우리는 최고의 기술과 서비스를 통해<br/>
-                            사회의 발전과 혁신에 기여하는<br/>
-                            선도적인 기업으로 성장하고자 합니다.
+                            우리의 목표는 뛰어난 기술과 서비스를 제공하여 <br/>
+                            사회 발전과 혁신을 주도하는 <br/>
+                            선도적인 기업으로 발전하는 것입니다. <br/>
                         </p>
                     </div>
                     <h3 className='desktop-inovation'>INOVATION</h3>

@@ -42,7 +42,7 @@
                 Max-Width 2000px
 \*--------------------------------------------*/
 @media screen and (max-width: 2000px) {
-    .footer-container{width: 100%; padding-left: 70px; padding-right: 70px;}
+    .footer-container{width: 100%; padding-left: 50px; padding-right: 50px;}
 }
 
 /*--------------------------------------------*\
