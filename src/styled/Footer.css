@@ -1,6 +1,6 @@
 #footer{
     background: #000;
-    height: 300px;
+    height: 250px;
 }
 .footer-wrap{
     width: 100%;
@@ -10,21 +10,23 @@
     max-width: 1920px;
     height: 100%;
     margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
 }
 .footer-logo-box{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .footer-logo-box img{
     width: 310px;
 }
 .footer-text-box{
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 .text-flex{
     width: 100%;
@@ -32,8 +34,8 @@
     justify-content: space-between;
 }
 .text-flex p{
-    font-size: 20px;
-    font-size: clamp(12px, 2vw, 20px);
+    /* font-size: 20px; */
+    font-size: clamp(12px, 2vw, 16px);
     color: #fff;
     margin: 5px 0;
 }

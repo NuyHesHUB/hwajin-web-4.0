@@ -61,13 +61,13 @@
 .about-robotos-contents-wrap h3{
     text-align: center;
     /* font-size: 60px; */
-    font-size: clamp(28px, 4vw, 60px);
+    font-size: clamp(28px, 4vw, 50px);
     font-weight: bold;
     margin-bottom: 30px;
 }
 .about-robotos-contents-wrap p{
     text-align: center;
-    font-size: clamp(14px, 2vw, 24px);
+    font-size: clamp(14px, 2vw, 22px);
     /* margin-bottom: 56px; */
 }
 /* .about-robotos-contents-wrap span{
