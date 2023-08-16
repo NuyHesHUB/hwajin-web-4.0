@@ -54,12 +54,12 @@
 /* .newplatform-text-wrap{} */
 .newplatform-text-wrap h2{
     font-weight: bold;
-    font-size: clamp(28px, 3vw, 60px);
+    font-size: clamp(28px, 3vw, 50px);
     color: #fff;
     margin-bottom: 32px;
 }
 .newplatform-text-wrap p{
-    font-size: clamp(14px, 2vw, 24px);
+    font-size: clamp(14px, 2vw, 22px);
     color: #fff;
 }
 
