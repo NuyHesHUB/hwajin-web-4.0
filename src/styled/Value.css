@@ -1,6 +1,7 @@
 *{font-family: 'Noto Sans KR', sans-serif;}
 #value{
-    height: 100vh;
+    /* height: 100vh; */
+    height: 90vh;
 }
 .value-wrap{
     width: 100%;
@@ -8,7 +9,7 @@
     /* max-width: 1635px; */
     margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
 }
 .value-wrap h2{
     /* font-size: 50px; */
@@ -30,7 +31,8 @@
     /* width: 600px; */
     width: 30vw;
     /* height: 500px; */
-    height: 700px;
+    /* height: 700px; */
+    height: 650px;
 }
 .v-img-overlay{
     background-repeat: no-repeat;

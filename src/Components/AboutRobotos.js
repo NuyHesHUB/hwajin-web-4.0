@@ -11,7 +11,7 @@ const AboutRobotos = () => {
     const fadeIn2 = useScrollFadeIn('left', 1, 0);
     
     return (
-        <div id='aboutRobotos' className='w-100 flex items-center'>
+        <div id='aboutRobotos' className='w-100 flex'>
             <div className='relative w-100  flex flex-col items-center about-robotos-wrap'>
                 <div className='about-robotos-title-wrap'>
                     <h2 className='text-white'>ABOUT ROBOTOS</h2>

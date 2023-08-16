@@ -1,6 +1,7 @@
 *{font-family: 'Noto Sans KR', sans-serif;}
 #about{
-    height: 100vh;
+    /* height: 100vh; */
+    height: 90vh;
 }
 .about-wrap{
     width: 100%;

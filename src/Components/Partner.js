@@ -24,7 +24,7 @@ const Partner = () => {
     },[])
     
     return (
-        <div id='partner' className='w-100 flex items-center'>
+        <div id='partner' className='w-100 flex'>
             <div className='relative w-100 partner-wrap'>
                 <div id='partnerVantaNet' className='w-100 relative'>
                     <div className='partner-content-wrap'>

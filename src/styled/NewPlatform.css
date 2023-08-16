@@ -1,7 +1,7 @@
 *{font-family: 'Noto Sans KR', sans-serif;}
 #newPlatForm{
     /* height: 100vh; */
-    height: 88vh;
+    height: 80vh;
     background: black;
 }
 .newplatform-wrap{
@@ -24,7 +24,8 @@
     background-repeat: no-repeat;
     background-image: url('../assets/robotos-image/platform-bg.png');
     width: 100vw;
-    height: 70vh;
+    /* height: 70vh; */
+    height: 60vh;
     z-index: 1;
 }
 .newplatform-contents-wrap{
