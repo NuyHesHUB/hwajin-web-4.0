@@ -222,7 +222,7 @@
                 Max-Width 600px
   \*--------------------------------------------*/
   @media screen and (max-width: 600px) {
-    /* .header-box .header-left img{
-      width: 150px;
-    } */
+    .header-box .header-left img{
+      width: 210px;
+    }
   }
