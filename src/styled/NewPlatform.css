@@ -78,6 +78,7 @@
     .newplatform-overlay{/* height: 700px; */ height: 100%;}
     .newplatform-contents-wrap{flex-direction: column;}
     .newplatform-img-wrap{margin-right: 0; width: 330px;}
+    .newplatform-img-wrap img{width: 380px;}
     .newplatform-text-wrap{margin-top: 20px;}
     .newplatform-text-wrap h2{text-align: center;}
     .newplatform-text-wrap p{text-align: center;}

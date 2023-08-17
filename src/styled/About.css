@@ -81,7 +81,7 @@
                 Max-Width 1000px
 \*--------------------------------------------*/
 @media screen and (max-width: 1000px) {
-    .about-wrap{flex-direction: column; padding: 0;}
+    .about-wrap{flex-direction: column; padding: 0; justify-content: space-around;}
     .about-text .about-title{text-align: center;}
     .about-text h2{text-align: center;}
     .about-text .about-contents1{text-align: center;}
@@ -115,5 +115,5 @@
     .vanta-wrap{margin-top: 20px;}
     #vantaNet{height: 300px; position: relative;}
     #vantaNet div{display: block; width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;}
-    #vantaNet div p{font-size: clamp(14px, 5vw, 20px); color: #fff; text-align: center;}
+    #vantaNet div p{font-size: clamp(12px, 3vw, 20px); color: #fff; text-align: center;}
 }

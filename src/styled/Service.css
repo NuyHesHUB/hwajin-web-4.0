@@ -21,6 +21,7 @@
 .desktop-service-wrap{width: 100%; height: 100%; margin: 0 auto;}
 .mobile-service-wrap{width: 100%; height: 100%; margin: 0 auto;}
 .desktop-swiper{display: block;}
+/* .swiper-slide{margin-right: 0 !important; margin-left: 50px !important;} */
 /* .swiper-wrapper{width: 100vw !important;}
 .swiper-slide{width: 100vw !important; margin-right: 0 !important; padding-right: 50px;} */
 .mobile-swiper{display: none;}
@@ -44,7 +45,8 @@
     height: 100vh;
 }
 .mobile-bg-wrap img{
-    width: 100%;
+    /* width: 100%; */
+    width: 110%;
     height: 100%;
 }
 .slide-contents-wrap{
