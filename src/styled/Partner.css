@@ -53,8 +53,8 @@
                 Max-Width 600px
 \*--------------------------------------------*/
 @media screen and (max-width: 600px) {
-    #partner{height: auto;}
+    #partner{height: auto; background: none;}
     .partner-wrap{height: 300px;}
-    #partnerVantaNet{height: 250px;}
+    #partnerVantaNet{height: 300px;}
     .partner-box{margin-top: 20px;}
 }

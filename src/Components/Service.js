@@ -150,7 +150,7 @@ const Service = () => {
                                         <p>
                                             빠른 견적 비교 <br/>
                                             AI매칭 <br/>
-                                            스마트 AI인트로<br/>
+                                            스마트 AI 인트로<br/>
                                         </p>
                                         <span>COMING SOON</span>
                                     </div>

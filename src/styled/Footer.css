@@ -52,7 +52,7 @@
 \*--------------------------------------------*/
 @media screen and (max-width: 600px) {
     #footer{height: 210px;}
-    .footer-container{align-items: center; justify-content: space-around;}
+    .footer-container{align-items: center; /* justify-content: space-around; */}
     .footer-logo-box img{width: 250px;}
     .text-flex{align-items: center; justify-content: center;}
     .text-flex p{text-align: center;}
