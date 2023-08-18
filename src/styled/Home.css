@@ -12,6 +12,7 @@
     height: 100%;
     align-items: center;
     justify-content: center;
+    
 }
 .hero h1{
     font-size: clamp(40px, 7vw, 104px);

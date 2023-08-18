@@ -12,7 +12,9 @@ import { Link } from 'react-scroll';
 const Home = () => {
 
     /* Scroll Event Hook */
-    const fadeIn1 = useScrollFadeIn('up', 2, 0);
+    const fadeIn1 = useScrollFadeIn('bannerup', 1, 0);
+    const fadeIn2 = useScrollFadeIn('bannerup', 1, 100);
+    const fadeIn3 = useScrollFadeIn('bannerup', 1, 200);
 
     /* Vanta.js */
     useEffect(() => {
@@ -32,11 +34,11 @@ const Home = () => {
     return (
         <div id='home' className='w-100'> 
             <div id='vantaWaves' className='w-100 relative home-wrap'>
-                <div ref={fadeIn1.ref} style={fadeIn1.style} className='hero'>
-                    <h1>상상 그 이상</h1>
-                    <p>IT기술과 서비스로 더 나은 삶을 향해</p>
+                <div className='hero'>
+                    <h1 ref={fadeIn1.ref} style={fadeIn1.style}>상상 그 이상</h1>
+                    <p ref={fadeIn2.ref} style={fadeIn2.style}>IT기술과 서비스로 더 나은 삶을 향해</p>
                     <Link to="about" smooth={true} duration={500} style={{cursor:'pointer'}}>
-                        <div className='border-solid border-2 border-white mt-16 flex justify-center items-center more-btn'>
+                        <div ref={fadeIn3.ref} style={fadeIn3.style} className='border-solid border-2 border-white mt-16 flex justify-center items-center more-btn'>
                             <span>VIEW MORE</span>
                         </div>
                     </Link>

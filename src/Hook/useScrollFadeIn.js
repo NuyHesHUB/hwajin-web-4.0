@@ -5,6 +5,8 @@ const useScrollFadeIn = (direction = 'up', duration = 1, delay = 0) => {
 
   const handleDirection = (name) => {
     switch (name) {
+      case 'bannerup':
+        return 'translate3d(0, 120%, 0)';
       case 'up':
         return 'translate3d(0, 20%, 0)';
       case 'down':
