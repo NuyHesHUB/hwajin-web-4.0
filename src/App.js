@@ -21,7 +21,6 @@ function App() {
         <About/>
         <Value/>
         <Service/>
-        
         <AboutRobotos/>
         <NewPlatform/>
         <Partner/>
