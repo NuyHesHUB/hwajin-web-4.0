@@ -14,7 +14,8 @@ import 'swiper/css/pagination';
 
 /* Image */
 import Logo from '../assets/image/robotos-logo.png';
-import Mockup from '../assets/robotos-image/mockup-image.png';
+import Mockup1 from '../assets/robotos-image/mockup-image1.png';
+import Mockup2 from '../assets/robotos-image/mockup-image2.png';
 import Mbg1 from '../assets/robotos-image/mobile-bg.png';
 import Mbg2 from '../assets/robotos-image/mobile-bg2.png';
 
@@ -83,7 +84,7 @@ const Service = () => {
                                         <span>COMING SOON</span>
                                     </div>
                                     <div className='right-mockup-wrap-01'>
-                                        <img ref={fadeIn2.ref} style={fadeIn2.style} src={Mockup} alt="mockup"/>
+                                        <img ref={fadeIn2.ref} style={fadeIn2.style} src={Mockup1} alt="mockup"/>
                                     </div>
                                 </div>
                             </div>
@@ -111,7 +112,7 @@ const Service = () => {
                                         </p>
                                     </div>
                                     <div className='right-mockup-wrap-01'>
-                                        <img ref={fadeIn4.ref} style={fadeIn4.style} src={Mockup} alt="mockup"/>
+                                        <img ref={fadeIn4.ref} style={fadeIn4.style} src={Mockup2} alt="mockup"/>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +156,7 @@ const Service = () => {
                                         <span>COMING SOON</span>
                                     </div>
                                     <div className='right-mockup-wrap-01'>
-                                        <img ref={fadeIn6.ref} style={fadeIn6.style} src={Mockup} alt="mockup"/>
+                                        <img ref={fadeIn6.ref} style={fadeIn6.style} src={Mockup1} alt="mockup"/>
                                     </div>
                                 </div>
                             </div>
@@ -180,7 +181,7 @@ const Service = () => {
                                         </p>
                                     </div>
                                     <div className='right-mockup-wrap-01'>
-                                        <img ref={fadeIn8.ref} style={fadeIn8.style} src={Mockup} alt="mockup"/>
+                                        <img ref={fadeIn8.ref} style={fadeIn8.style} src={Mockup2} alt="mockup"/>
                                     </div>
                                 </div>
                             </div>
