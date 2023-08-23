@@ -26,7 +26,7 @@ const NewPlatform = () => {
                         </h2>
                         <p ref={fadeIn2.ref} style={fadeIn2.style}>
                             구매자와 판매자가 만나 <br/>
-                            새로운 경험과 또다른 기회를 만들어가며 <br/>
+                            새로운 경험과 또 다른 기회를 만들어가며 <br/>
                             시장의 새로운 패러다임을 <br/>
                             구축하고자 합니다.
                         </p>
