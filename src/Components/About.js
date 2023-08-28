@@ -33,7 +33,7 @@ const About = () => {
         <div id='about' className='w-100'>
             <div className='flex justify-between items-center about-wrap'>
                 <div ref={fadeIn1.ref} style={fadeIn1.style} className='about-text'>
-                    <h3 className='mobile-inovation'>INOVATION</h3>
+                    <h3 className='mobile-inovation'>CREATIVE INNOVATION</h3>
                     <p className='about-title'>ABOUT</p>
                     <h2>끊임없는 연구와</h2>
                     <h2><u>도전정신</u>을 지향합니다</h2>
@@ -52,7 +52,7 @@ const About = () => {
                             창의적으로 매일 노력하고 개선하고 있습니다. <br/>
                         </p>
                     </div>
-                    <h3 className='desktop-inovation'>INOVATION</h3>
+                    <h3 className='desktop-inovation'>CREATIVE INNOVATION</h3>
                 </div>
                 <div ref={fadeIn2.ref} style={fadeIn2.style} className='vanta-wrap'>
                     <div id='vantaNet'>

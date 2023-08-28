@@ -36,7 +36,7 @@ const AboutRobotos = () => {
                             <p className='text-white'>
                                 소비자가 원하는 정보를 학습하여 생성된 알고리즘으로 <br/>
                                 소비자에게 적절한 맥락에서 <br/>
-                                브랜드 스토리와 매칭경험을 효과적으로 전달합니다.
+                                브랜드 스토리와 매칭 경험을 효과적으로 전달합니다.
                             </p>
                             {/* <span className='text-white'>COMING SOON</span> */}
                         </div>

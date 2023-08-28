@@ -36,7 +36,7 @@ const Home = () => {
             <div id='vantaWaves' className='w-100 relative home-wrap'>
                 <div className='hero'>
                     <h1 ref={fadeIn1.ref} style={fadeIn1.style}>상상 그 이상</h1>
-                    <p ref={fadeIn2.ref} style={fadeIn2.style}>IT기술과 서비스로 더 나은 삶을 향해</p>
+                    <p ref={fadeIn2.ref} style={fadeIn2.style}>IT 기술과 서비스로 더 나은 삶을 향해</p>
                     <Link to="about" smooth={true} duration={500} style={{cursor:'pointer'}}>
                         <div ref={fadeIn3.ref} style={fadeIn3.style} className='border-solid border-2 border-white mt-16 flex justify-center items-center more-btn'>
                             <span>VIEW MORE</span>

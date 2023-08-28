@@ -20,7 +20,7 @@ const Value = () => {
             <div className='flex items-center value-wrap'>
                 <h2 className='text-center font-bold'>가치 실현</h2>
                 <p className='text-center mobile-value-text'>
-                    가치실현은 <u className='font-bold'>우리의 핵심</u>입니다. <br/>
+                    가치 실현은 <u className='font-bold'>우리의 핵심</u>입니다. <br/>
                     우리는 약속을 지키며 그 결과를 만들어내고 있습니다.
                 </p>
                 <div className='flex justify-center w-full value-contents-wrap'>

@@ -40,7 +40,8 @@
 }
 .about-text h3{
     /* font-size: 98px; */
-    font-size: clamp(70px, 7vw, 98px);
+    /* font-size: clamp(70px, 7vw, 98px); */
+    font-size: clamp(40px, 4vw, 60px);
     font-weight: bold;
     color: #3FA9F5;
 }
@@ -110,7 +111,7 @@
     #about{height: auto;}
     .about-wrap{height: 85%;}
     .about-text .about-title{margin-bottom: 20px;}
-    .about-text h3{margin-top: 30px; margin-bottom: 30px;}
+    .about-text h3{margin-top: 30px; margin-bottom: 30px; font-size: 40px;}
     .about-text div{display: none;}
     .vanta-wrap{margin-top: 20px;}
     #vantaNet{height: 300px; position: relative;}
