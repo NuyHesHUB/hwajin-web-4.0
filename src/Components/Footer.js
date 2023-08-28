@@ -30,14 +30,11 @@ const Footer = () => {
                                 사업자등록번호 : 323-87-01693
                             </p>
                         </div>
-                        <div className='bottom-text-box text-flex'>
+                        {/* <div className='bottom-text-box text-flex'>
                             <p>
-                                경기도 화성시 동탄첨단산업1로 51-9 엠타워 16층 {/* (영천동, 엠타워 지식산업센터) */}
+                                경기도 화성시 동탄첨단산업1로 51-9 엠타워 16층
                             </p>
-                            {/* <p>
-                                All Rights Reserved Hwajinrobotics Inc.
-                            </p> */}
-                        </div>
+                        </div> */}
                         <div className='bottom-text-box text-flex'>
                             <p>
                                {/*  All Rights Reserved Hwajinrobotics Inc. */}
