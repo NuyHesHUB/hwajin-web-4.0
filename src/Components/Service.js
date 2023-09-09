@@ -75,7 +75,7 @@ const Service = () => {
                                     <div ref={fadeIn1.ref} style={fadeIn1.style} className='flex flex-col left-contents-wrap-01'>
                                         <h3>01<u> / 02</u></h3>
                                         <img src={Logo} alt="logo"/>
-                                        <h2>A 매칭 플랫폼 로보토스</h2>
+                                        <h2>AI 매칭 플랫폼 로보토스</h2>
                                         <p>
                                             빠른 견적 비교 <br/>
                                             AI 매칭 <br/>
