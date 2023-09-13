@@ -38,7 +38,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    filter: brightness(50%);
+    filter: brightness(80%);
     position: absolute;
     top: 0;
     left: 0;
@@ -47,17 +47,17 @@
     height: 100%;
 }
 .left-img-overlay{
-    background-image: url('../assets/value-image/value-left-image.jpg');
+    background-image: url('../assets/value-image/img01.png');
 }
 .center-img-overlay{
-    background-image: url('../assets/value-image/value-center-image.jpg');
+    background-image: url('../assets/value-image/img02.png');
 }
 .right-img-overlay{
-    background-image: url('../assets/value-image/value-right-image.jpg');
+    background-image: url('../assets/value-image/img03.png');
 }
 .value-text-wrap{
     left: 55px;
-    top: 350px;
+    top: 450px;
 }
 .value-text-wrap img{
     width: 85px;
@@ -66,7 +66,8 @@
 .value-text-wrap p{
     margin-top: 16px;
     /* font-size: 24px; */
-    font-size: clamp(14px, 1vw, 22px);
+    /* font-size: clamp(14px, 1vw, 22px); */
+    font-size: clamp(15px, 2vw, 24px);
     color: #fff;
 }
 

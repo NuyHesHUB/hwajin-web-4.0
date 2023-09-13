@@ -28,11 +28,15 @@ const Value = () => {
                         <div className='relative w-full h-full value-img-wrap'>
                             <div className='v-img-overlay left-img-overlay'></div>
                             <div className='absolute value-text-wrap'>
-                                <img src={Icon1} alt="icon"/>
-                                <p>
+                                {/* <img src={Icon1} alt="icon"/> */}
+                                {/* <p>
                                     우리는 최고의 기술과 서비스를 통해 <br/>
                                     사회의 발전과 혁신에 기여하는 <br/>
                                     선도적인 기업으로 성장하고자 합니다.<br/>
+                                </p> */}
+                                <p>
+                                    우리는 고객들에게 더 나은 서비스를 제공 <br/>
+                                    하기 위해 지속적으로 노력합니다.
                                 </p>
                             </div>
                         </div>
@@ -41,13 +45,17 @@ const Value = () => {
                         <div className='relative w-full h-full value-img-wrap'>
                             <div className='v-img-overlay right-img-overlay'></div>
                             <div className='absolute value-text-wrap'>
-                                <img src={Icon3} alt="icon"/>
-                                <p>
+                                {/* <img src={Icon3} alt="icon"/> */}
+                                {/* <p>
                                     우리는 고객들과의 <br/>
                                     긴밀한 관계를 통해 <br/>
                                     그들의 니즈를 이해하고 <br/>
                                     더 나은 서비스를 제공하기 위해 <br/>
                                     지속적으로 노력합니다.
+                                </p> */}
+                                <p>
+                                    우리는 자유로운 의사소통과 <br/>
+                                    협력을 지원하는 소통 문화를 지향합니다.
                                 </p>
                             </div>
                         </div>
@@ -56,12 +64,16 @@ const Value = () => {
                         <div className='relative w-full h-full value-img-wrap'>
                             <div className='v-img-overlay center-img-overlay'></div>
                             <div className='absolute value-text-wrap'>
-                                <img src={Icon2} alt="icon"/>
-                                <p>
+                                {/* <img src={Icon2} alt="icon"/> */}
+                                {/* <p>
                                     우리는 직원들이 자신의 능력을 <br/>
                                     최대한 활용하고 창의적인 아이디어를 <br/>
                                     발휘할 수 있게 자유로운 의사소통과 <br/>
                                     협력을 지원하는 소통 문화를 지향합니다.
+                                </p> */}
+                                <p>
+                                    우리는 최고의 기술과 서비스를 통해 <br/>
+                                    선도적인 기업으로 성장하고자 합니다.
                                 </p>
                             </div>
                         </div>
